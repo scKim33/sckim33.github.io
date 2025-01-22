@@ -2,10 +2,8 @@
 title: "Title Here"
 last_modified_at: 2025-01-23
 categories:
-  - paper_review
+  - paper review
 tags:
-  - YOU
-  - CAN
   - ADD
   - SOME
   - TAGS
