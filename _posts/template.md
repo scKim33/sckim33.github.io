@@ -1,0 +1,45 @@
+---
+title: "Title Here"
+last_modified_at: 2025-01-23
+categories:
+  - paper_review
+tags:
+  - YOU
+  - CAN
+  - ADD
+  - SOME
+  - TAGS
+  - HERE
+excerpt: "brief description for the post"
+use_math: true
+classes: wide
+---
+
+> CVPR 2022 (Oral). [[Paper](https://arxiv.org/abs/2008.05865)] [[Github](https://github.com/tobran/DF-GAN)]  
+> Ming Tao, Hao Tang, Fei Wu, Xiao-Yuan Jing, Bing-Kun Bao, Changsheng Xu    
+> 13 Aug 2020  
+
+### Title
+
+## Image example
+
+<center><img src='{{"assets\images\etc\crayon1.png" | relative_url}}' width="100%"></center>
+  
+## Math Equation
+
+inline equation $a,b,c$
+
+$$
+\begin{aligned}
+L_D = &- \mathbb{E}_{x\sim \mathbb{P_r}} [\min(0, -1+D(x,e))] \\
+&- (1/2) \mathbb{E}_{G(z)\sim \mathbb{P_g}} [\min(0, -1-D(G(z),e))] \\
+&- (1/2) \mathbb{E}_{x\sim \mathbb{P_{mis}}} [\min(0, -1-D(x,e))] \\
+L_G = &-\mathbb{E}_{G(z)\sim \mathbb{P_g}} [D(G(z),e)]
+\end{aligned}
+$$
+
+## Bulletin
+
+- a
+- b
+- c

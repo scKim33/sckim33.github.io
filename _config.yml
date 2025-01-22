@@ -114,9 +114,9 @@ analytics:
 # Site Author
 author:
   name             : "sckim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "배고파"
-  location         : "Somewhere in Korea"
+  avatar           : "\assets\images\etc\crayon1.png"
+  bio              : "춥고 배가고파요"
+  location         : "Korea"
   email            :
   links:
     - label: "Email"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/scKim33/sckim33.github.io/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -289,6 +289,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+post_archive:
+  type: liquid
+  path: /posts/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
