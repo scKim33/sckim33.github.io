@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "sckim"
-  avatar           : "\assets\images\etc\crayon1.png"
+  avatar           : r"\assets\images\etc\crayon1.png"
   bio              : "춥고 배가고파요"
   location         : "Korea"
   email            :
