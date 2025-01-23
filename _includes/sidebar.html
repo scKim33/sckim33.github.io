@@ -1,7 +1,3 @@
-{% if page.sidebar_main %}
-{% include nav_list_main %}
-{% endif %}
-
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
@@ -17,6 +13,9 @@
     {% endfor %}
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+    {% if page.sidebar_main %}
+      {% include nav_list_main %}
     {% endif %}
   {% endif %}
   </div>
