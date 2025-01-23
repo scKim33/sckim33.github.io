@@ -4,13 +4,13 @@ main:
     url: /
   - title: "Tags"
     url: /tags/
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+docs:
+  - title: "Paper Review"
+    children:
+      - title: "paper_review"
+        url: /categories/paper_review
+  - title: "ETC"
+    children:
+      - title: "ETC"
+        url: /categories/etc
