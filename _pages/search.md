@@ -3,6 +3,8 @@ layout: page
 title: "Search"
 permalink: /search/
 sitemap: false
+sidebar:
+    nav: "sidebar-category"
 ---
 
 <div id="search-container">
