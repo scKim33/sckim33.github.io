@@ -26,3 +26,33 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+
+<!-- Example snippet to add on the right side -->
+<nav id="site-nav" class="main-navigation">
+  <ul class="menu">
+    <!-- Existing nav items -->
+    <li>
+      <a href="{{ '/search/' | relative_url }}" title="Search">
+        <span class="icon">🔎</span> Search
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<!-- snippet around the existing nav -->
+<ul class="menu">
+  <!-- Tag Search Link -->
+  <li>
+    <a href="{{ '/tags/' | relative_url }}" title="Search by Tags">
+      <span class="icon">🏷️</span> By Tags
+    </a>
+  </li>
+  <!-- Main Search Link -->
+  <li>
+    <a href="{{ '/search/' | relative_url }}" title="Search">
+      <span class="icon">🔎</span> Search
+    </a>
+  </li>
+</ul>
