@@ -6,11 +6,11 @@ main:
     url: /tags/
 
 docs:
-  - title: Paper Review
+  - title: "Paper Review"
     children:
-      - title: paper_review
+      - title: "paper_review"
         url: /categories/paper_review
-  - title: ETC
+  - title: "ETC"
     children:
-      - title: ETC
+      - title: "ETC"
         url: /categories/etc
