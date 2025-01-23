@@ -5,7 +5,7 @@ main:
   - title: "Tags"
     url: /tags/
 
-docs:
+sidebar:
   - title: "Paper Review"
     children:
       - title: "Paper Review"
