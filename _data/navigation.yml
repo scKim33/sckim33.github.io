@@ -8,7 +8,7 @@ main:
 docs:
   - title: "Paper Review"
     children:
-      - title: "paper_review"
+      - title: "Paper Review"
         url: /categories/paper_review
   - title: "ETC"
     children:
