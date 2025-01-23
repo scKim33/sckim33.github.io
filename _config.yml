@@ -323,6 +323,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar: true
       read_time: false
       show_date: true
       comments: # true
