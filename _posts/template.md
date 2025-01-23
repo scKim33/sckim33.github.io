@@ -2,7 +2,7 @@
 title: "Title Here"
 last_modified_at: 2025-01-23
 categories:
-  - paper review
+  - paper_review
 tags:
   - ADD
   - SOME
