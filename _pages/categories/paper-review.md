@@ -1,6 +1,6 @@
 ---
 title: "Paper Review"
 layout: archive
-permalink: /categories/paper_review/
+permalink: /categories/papers/
 author_profile: true
 ---
