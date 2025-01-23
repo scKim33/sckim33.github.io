@@ -14,7 +14,7 @@ classes: wide
 {% assign tagstr = site.data.tags | join: ',' %}
 
 <div style="float: right; margin-top: 10px;">
-  <span style="display: inline-block; font-size: 1.0em; font-style: bold;" name="num-posts"></span>
+  <span style="display: inline-block; font-size: 0.8em; font-style: bold;" name="num-posts"></span>
   <span style="display: inline-block; font-size: 0.8em;"> 개의 게시글이 있습니다.</span>
 </div>
 
@@ -40,6 +40,8 @@ classes: wide
         closeOnSelect: true
       }
     });
+
+    updatePostCount();
 
     tagify.on('add', function(e) {
       var currentTag = e.detail.data.value.toLowerCase().replaceAll(' ', '-');
@@ -73,6 +75,15 @@ classes: wide
       return Object.fromEntries(urlParams.entries());
     }
 
+    function updatePostCount() {
+      const visiblePosts = document.querySelectorAll('.post-wrapper:not(.hidden)');
+
+      const postCountElement = document.querySelector('[name="num-posts"]');
+      if (postCountElement) {
+        postCountElement.textContent = visiblePosts.length; // 게시글 개수를 설정
+      }
+    }
+
     function filter() {
       document.querySelectorAll('.post-wrapper').forEach(function(elem) {
         elem.classList.remove('hidden');
@@ -84,6 +95,7 @@ classes: wide
           }
         });
       });
+      updatePostCount();
       console.log(selects);
       console.log(tagify.value);
     }
