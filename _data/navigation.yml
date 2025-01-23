@@ -4,13 +4,3 @@ main:
     url: /
   - title: "Tags"
     url: /tags/
-
-docs:
-  - title: "Paper Review"
-    children:
-      - title: "Paper Review"
-        url: /categories/paper_review
-  - title: "ETC"
-    children:
-      - title: "ETC"
-        url: /categories/etc
