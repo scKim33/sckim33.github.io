@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "흐어어으허어억"
+title                    : "까먹기 전에 적어라도 두자"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "sckim"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "sckim"
   avatar           : "/assets/images/etc/crayon1.png"
-  bio              : "춥고 배가고파요"
+  bio              : "백수"
   location         : "Korea"
   email            :
   links:
