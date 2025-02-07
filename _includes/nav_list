@@ -78,5 +78,11 @@
             
         </ul> -->
       </li>
+      <li>
+        <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/books_lectures">Books & Lectures ({{ site.categories['books_lectures'].size }})</a></span>
+      </li>
+      <li>
+        <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/sim">Simulations ({{ site.categories['sim'].size }})</a></span>
+      </li>
   </ul>
 </nav>
