@@ -1,0 +1,31 @@
+- 정규식 찾기 바꾸기
+
+찾기
+\\\((.*?)\\\) 
+바꾸기
+\\\\($1\\\\)
+
+- 토글 양식
+
+<details>
+<summary></summary>
+<div markdown="1">
+
+</div>
+</details>
+
+- 이미지 양식
+
+<center>
+<img src='{{"assets/images/CQL/cql2.png" | relative_url}}' width="80%">
+<figcaption style="text-align: center;"></figcaption>
+</center>
+
+- Theorem 양식
+
+> $\textbf{Theorem 3.2.}$  
+> <div align="center">
+> $$
+
+  $$
+> </div>

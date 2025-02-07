@@ -211,6 +211,7 @@ incremental: false
 
 # Markdown Processing
 kramdown:
+  syntax_highlighter: rouge
   input: GFM
   hard_wrap: false
   auto_ids: true

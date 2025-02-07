@@ -84,5 +84,8 @@
       <li>
         <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/sim">Simulations ({{ site.categories['sim'].size }})</a></span>
       </li>
+      <li>
+        <span class="nav__sub-title" v-on:click='togglec()'><a href="/categories/etc">etc ({{ site.categories['etc'].size }})</a></span>
+      </li>
   </ul>
 </nav>
