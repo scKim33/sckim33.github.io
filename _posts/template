@@ -21,6 +21,18 @@
 <figcaption style="text-align: center;"></figcaption>
 </center>
 
+- 나란한 이미지 양식
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="text-align: center; margin-right: 20px;">
+    <img src='{{"assets/images/CoT/cot10.png" | relative_url}}' width="80%">
+    <figcaption></figcaption>
+  </div>
+  <div style="text-align: center;">
+    <img src='{{"assets/images/CoT/cot1.png" | relative_url}}' width="80%">
+    <figcaption></figcaption>
+  </div>
+</div>
+
 - Theorem 양식
 
 > $\textbf{Theorem 3.2.}$  
