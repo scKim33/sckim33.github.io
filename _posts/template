@@ -24,8 +24,8 @@
 
 - 이미지 양식 이미지 너비 기준
 <center>
-<img src='{{"assets/images/CoT/cot3.png" | relative_url}}' style="max-width: 100%; width: auto;">
-<figcaption style="text-align: center;">Arithmetic reasoning results</figcaption>
+<img src='{{"assets/images/SAC/sac1.png" | relative_url}}' style="max-width: 100%; width: auto;">
+<figcaption style="text-align: center;"></figcaption>
 </center>
 
 - 나란한 이미지 양식
